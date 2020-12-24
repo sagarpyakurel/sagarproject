@@ -1,0 +1,305 @@
+/* for resume */
+
+.btn {
+ background-color:#2cfc03;
+  border: none;
+  color:red;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+	background-color:#3dc2c4;
+}
+
+
+
+.introduction{
+	  background-color: #e6f3ff;
+}
+
+#nametext{
+	  color:#165716;
+	   text-shadow: 0 0 3px;
+}
+
+
+
+#titletext{
+	 
+	  color:#42980C;
+
+}
+
+.icon{
+	backgroun-color:green;
+}
+
+.icon:hover {
+		background-color:#cce7e8;
+}
+
+
+
+
+
+/*for awards*/
+/*for awards*/
+/*for awards*/
+/*for awards*/
+/*for awards*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.detailpage {
+  position: relative;
+  display: none;
+ 
+}
+
+/* Expanding image text */
+#imgtext {
+  position: relative;
+  opacity:100%;
+  font-size: 30px;
+  background:pink;
+  color:green;
+ 
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+#wrapper{
+	background:#85c997;
+}
+
+#portfolio{
+	background:#b2f7c4;
+}
+
+#awards{
+	background:#b2f7c4;
+}
+#contact{
+	background:#b2f7c4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for portfolio pages */
+/*for portfolio pages */
+/*for portfolio pages */
+
+/*for portfolio pages */
+
+
+
+
+
+/* Responsive placing of the boxes*/
+.container1 {
+		padding: 1% 1% 0% 1%;
+		background: #ddd;
+}
+.container1:after {
+		content: '';
+		display: inline-block;
+		width: 100%;
+}
+
+/* Inside the box */
+
+.box {	
+		width: 100%;
+		margin:2%;
+		padding-bottom: 96%;
+		height: 0;
+		position: relative;
+		float: left;
+		cursor: pointer;
+		overflow: hidden;
+		box-shadow: 0px 0px 18px 1px #000;
+		
+}
+
+.box:after {
+		content: '';
+		position: absolute;
+		background-color: #000;
+		opacity:0;
+		z-index: 55;
+		width: 100%;
+		height: 100%;
+		-webkit-transition: all .15s ease-out;
+		-moz-transition: all .15s ease-out;
+		-ms-transition: all .15s ease-out;
+		-o-transition: all .15s ease-out;
+		transition: all .15s ease-out;
+}
+
+.box:hover::after {
+		background-color: #000;
+		opacity:.7;
+}
+
+.container1 .box .caption {
+		position: absolute;
+		z-index: 60;
+		width: 90%;
+		margin-left: 5%;
+		top: 50%;
+		-webkit-transform: scale(3);
+		-moz-transform: scale(3);
+		-ms-transform: scale(3);
+		-o-transform: scale(3);
+		transform: scale(3);
+		text-align: center;
+		-webkit-transition: all .15s ease-out;
+		-moz-transition: all .15s ease-out;
+		-ms-transition: all .15s ease-out;
+		-o-transition: all .15s ease-out;
+		transition: all .15s ease-out;
+		font: 1.4em normal Arial, sans-serif;
+		color: #fff;
+		opacity: 0;
+}
+
+.box:hover .caption {
+		-webkit-transform: scale(1) translate(0%, -50%);
+		-moz-transform: scale(1) translate(0%, -50%);
+		-ms-transform: scale(1) translate(0%, -50%);
+		-o-transform: scale(1) translate(0%, -50%);
+		transform: scale(1) translate(0%, -50%);
+		opacity: 1;
+}
+
+.box img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		z-index: 50;
+		-webkit-transition: all .15s ease-out;
+		-moz-transition: all .15s ease-out;
+		-ms-transition: all .15s ease-out;
+		-o-transition: all .15s ease-out;
+		transition: all .15s ease-out;
+}
+
+.box:hover img {
+	height: 150%;
+}
+/* media changes, changing number of columns */
+
+@media all and (min-width: 800px){
+  .container1 .box{
+		width: 48%;
+		margin:1%;
+		padding-bottom:48%;
+	}
+}
+
+@media all and (min-width: 1000px){
+  .container1 .box{
+		width: 31.3333%;
+		padding-bottom:30%;
+	}
+}
+@media all and (min-width: 1500px){
+  .container1 .box{
+		width: 23%;
+		padding-bottom:23%;
+	}
+}
+#note{
+	color:green;
+
+}
+
+#logo{
+
+
+
+}
