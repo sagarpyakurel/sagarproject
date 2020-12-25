@@ -14,7 +14,8 @@
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  background:#1bd158;
+  border-radius: 12px;
+
  
 
 }
@@ -29,7 +30,8 @@ background:black;
 
 }
 .resume{
-border-radius: 12px;
+
+background:#1bd158;
 
 
 }
