@@ -9,14 +9,19 @@
   font-size: 20px;
   max-height:100px;
  max-width:200px;
- 
   opacity: 100%;
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+ 
 
 }
+
+.btn:hover {
+	background-color:#3dc2c4;
+}
+
 .hire {
 background:black;
 
@@ -26,10 +31,6 @@ background:black;
 border-radius: 12px;
 background:#1bd158;
 
-}
-
-.btn:hover {
-	background-color:#3dc2c4;
 }
 
 
