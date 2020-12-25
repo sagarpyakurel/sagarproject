@@ -217,7 +217,7 @@
 								
 							
 
-								<form action="#" method="post">
+								<form action="POST"  datanetlify="True">
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
@@ -232,6 +232,16 @@
 											<div class="col-12">
 												<textarea name="message" placeholder="Write your message here" rows="6" required></textarea>
 											</div>
+
+
+											<div class="col-12">
+												<input type="file" name="myfile" id="myfile" placeholder="Upload File "  rows="7" />
+											</div>
+
+											<div class="col-12">
+												<div data-netlify-recaptcha="True"></div>
+											</div>
+
 											<div class="col-12">
 												<input type="submit" value="Send Message" />
 											</div>
