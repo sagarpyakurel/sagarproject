@@ -141,6 +141,10 @@ body {
   z-index: 1;
 }
 
+.hero-content {
+  padding-right: 2rem;
+}
+
 .hero-content h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
@@ -148,6 +152,8 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: slideInUp 0.8s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-subtitle {
@@ -770,6 +776,11 @@ body {
   .hero .container {
     grid-template-columns: 1fr;
     padding-top: 2rem;
+  }
+
+  .hero-content {
+    padding-right: 0;
+    padding-left: 1rem;
   }
 
   .hero-content h1 {
