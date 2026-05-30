@@ -7,8 +7,8 @@
   padding: 16px 32px;
   text-align: center;
   font-size: 20px;
- 
- max-width:160px;
+  
+  max-width:160px;
   opacity: 100%;
   transition: 0.3s;
   display: inline-block;
@@ -16,9 +16,6 @@
   cursor: pointer;
   border-radius: 12px;
   font-size: 15px;
-
- 
-
 }
 
 .btn:hover {
@@ -26,56 +23,33 @@
 }
 
 .hire {
-background:black;
-margin:2px;
-
-
-}
-.resume{
-
-background:black;
-margin:2px;
-
-
+	background: black;
+	margin: 2px;
 }
 
+.resume {
+	background: black;
+	margin: 2px;
+}
 
-
-.introduction{
+.introduction {
 	  background-color: #e6f3ff;
 }
 
-#nametext{
-	  color:#165716;
+#nametext {
+	  color: #165716;
 	   text-shadow: 0 0 3px;
 }
 
-
-
-
-#titletext{
-	 
-	  color:#42980C;
-
-}
-
-.icon{
-	backgroun-color:green;
+#titletext {
+	  color: #42980C;
 }
 
 .icon:hover {
-		background-color:#cce7e8;
+	background-color: #cce7e8;
 }
 
-
-
-
-
-/*for awards*/
-/*for awards*/
-/*for awards*/
-/*for awards*/
-/*for awards*/
+/* for awards */
 
 * {
   box-sizing: border-box;
@@ -109,17 +83,15 @@ margin:2px;
 .detailpage {
   position: relative;
   display: none;
- 
 }
 
 /* Expanding image text */
 #imgtext {
   position: relative;
-  opacity:100%;
+  opacity: 1;
   font-size: 30px;
-  background:pink;
-  color:green;
- 
+  background: pink;
+  color: green;
 }
 
 /* Closable button inside the expanded image */
@@ -132,78 +104,35 @@ margin:2px;
   cursor: pointer;
 }
 
-
-
-#wrapper{
-	background:#85c997;
+#wrapper {
+	background: #85c997;
 }
 
-#portfolio{
-	background:#b2f7c4;
+#portfolio {
+	background: #b2f7c4;
 }
 
-#awards{
-	background:#b2f7c4;
-}
-#contact{
-	background:#b2f7c4;
+#awards {
+	background: #b2f7c4;
 }
 
-
-
-
-
-/*row award */
-
-/*row award *//*row award *//*row award *//*row award */
-
-
-.rowaward{
-
-	margin-left:50px;
-
+#contact {
+	background: #b2f7c4;
 }
 
+/* row award */
+.rowaward {
+	margin-left: 50px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*for portfolio pages */
-/*for portfolio pages */
-/*for portfolio pages */
-
-/*for portfolio pages */
-
-
-
-
+/* for portfolio pages */
 
 /* Responsive placing of the boxes*/
 .container1 {
 		padding: 1% 1% 0% 1%;
 		background: #ddd;
 }
+
 .container1:after {
 		content: '';
 		display: inline-block;
@@ -211,10 +140,9 @@ margin:2px;
 }
 
 /* Inside the box */
-
 .box {	
 		width: 100%;
-		margin:2%;
+		margin: 2%;
 		padding-bottom: 96%;
 		height: 0;
 		position: relative;
@@ -222,14 +150,13 @@ margin:2px;
 		cursor: pointer;
 		overflow: hidden;
 		box-shadow: 0px 0px 18px 1px #000;
-		
 }
 
 .box:after {
 		content: '';
 		position: absolute;
 		background-color: #000;
-		opacity:0;
+		opacity: 0;
 		z-index: 55;
 		width: 100%;
 		height: 100%;
@@ -242,7 +169,7 @@ margin:2px;
 
 .box:hover::after {
 		background-color: #000;
-		opacity:.7;
+		opacity: .7;
 }
 
 .container1 .box .caption {
@@ -297,35 +224,30 @@ margin:2px;
 .box:hover img {
 	height: 150%;
 }
+
 /* media changes, changing number of columns */
-
-@media all and (min-width: 800px){
-  .container1 .box{
+@media all and (min-width: 800px) {
+  .container1 .box {
 		width: 48%;
-		margin:1%;
-		padding-bottom:48%;
+		margin: 1%;
+		padding-bottom: 48%;
 	}
 }
 
-@media all and (min-width: 1000px){
-  .container1 .box{
+@media all and (min-width: 1000px) {
+  .container1 .box {
 		width: 31.3333%;
-		padding-bottom:30%;
+		padding-bottom: 30%;
 	}
 }
-@media all and (min-width: 1500px){
-  .container1 .box{
+
+@media all and (min-width: 1500px) {
+  .container1 .box {
 		width: 23%;
-		padding-bottom:23%;
+		padding-bottom: 23%;
 	}
 }
-#note{
-	color:green;
 
-}
-
-#logo{
-
-
-
+#note {
+	color: green;
 }
